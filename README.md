@@ -1,4 +1,4 @@
-# Premier-League-23/24
+# Premier-League-24/25
 ## Installation
 
 ### Prerequisites
