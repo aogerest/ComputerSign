@@ -83,6 +83,18 @@ EMAIL_PORT = 587
 python manage.py makemigrations
 python manage.py migrate
 
+mysql -u <mysql-user> -p
+
+# Give the absolute path of the file
+mysql> source /world_team.sql
+mysql> source /world_statistic.sql
+mysql> source /world_standing.sql
+mysql> source /world_score.sql
+mysql> source /world_player.sql
+mysql> source /world_match.sql
+mysql> source /world_details.sql
+mysql> exit;
+
 # For search feature we need to index certain tables to the haystack. For that run below command.
 python manage.py rebuild_index
 
