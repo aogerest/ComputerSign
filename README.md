@@ -13,18 +13,18 @@ Reference: [https://dev.mysql.com/doc/refman/5.5/en/](https://dev.mysql.com/doc/
 #### 3. Setup virtual environment
 ```bash
 # Install virtual environment
-sudo pip install virtualenv
+#sudo pip install virtualenv
 
 # Make a directory
-mkdir envs
+#mkdir envs
 
 # Create virtual environment
-virtualenv ./envs/
+#virtualenv ./envs/
 #或者
-python3.10 -m venv ./envs/
+#python3.10 -m venv ./envs/
 
 # Activate virtual environment
-source envs/bin/activate
+#source envs/bin/activate
 ```
 
 #### 4. Clone git repository
@@ -69,7 +69,7 @@ DATABASES = {
 
 # Edit email configurations.
 # Search for email configurations
-EMAIL_USE_TLS = True
+EMAIL_USE_TLS = False
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = '<your-email>'
 EMAIL_HOST_PASSWORD = '<your-email-password>'
